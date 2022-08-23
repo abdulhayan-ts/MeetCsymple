@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="/clone.css" />
+  <title>Clone</title>
+</head>
+
+<body>
+  <div class="grid-container">
+    <div class="header">
+      <form id="saerchbar">
+        <button><i class="fa fa-search fa-lg"></i></button>
+        <input type="text" placeholder="Search" name="search" />
+      </form>
+
+      <div id="icons">
+        <button style="margin-right: 1em;">
+          <img src="assets/link.png" alt="link"></i>
+        </button>
+        <button style="margin-right: 0.3em;">
+          <img src="assets/doubts.png" alt="">
+        </button>
+        <div id="icons_meet">
+          <img src="/assets/meet.png" alt="">
+          <p>MeetCsymple</p>
+        </div>
+        <button>
+          <img style="max-height: 5em;
+            max-width: 2.5em;
+            opacity: 0.2;" src="assets/user.png" alt="">
+        </button>
+      </div>
+    </div>
+    <!-------------------------------------------------sidebar1--------------------------     -->
+    <div class="sidebar1">
+      <div style="border: 1px solid #dddfe3;
+      border-radius: 10px;
+      margin-bottom: 1.5em;" class="sidebar_items" id="sidebar_items1">
+        <button>
+          <i style="opacity: 0.7;" class="fa-solid fa-arrow-left fa-xl"></i>
+        </button>
+        <div>
+          <input type="text" placeholder="All apps" name="search" />
+        </div>
+      </div>
+      <div class="sidebar_items">
+        <button>
+          <img src="/assets/10.png" alt="">
+        </button>
+        <div>
+          <p>turns 10</p>
+        </div>
+      </div>
+      <div class="sidebar_items">
+        <button>
+          <img src="/assets/dashboard.png" alt="">
+        </button>
+        <div>
+          <p>Dashboard</p>
+        </div>
+      </div>
+      <div style="position:relative;" id="sidebar_items_inbox" class="sidebar_items">
+        <button>
+          <img src="/assets/inbox.png" alt="">
+        </button>
+        <div>
+          <p>Inbox</p>
+        </div>
+        <div class="inbox_counter">
+          <p>4</p>
+        </div>
+      </div>
+      <div class="sidebar_items">
+        <button>
+          <img src="/assets/graph.png" alt="">
+        </button>
+        <div>
+          <p>Statistics</p>
+        </div>
+      </div>
+      <div style="position:relative;" class="sidebar_items">
+        <button>
+          <img src="/assets/publishing.png" alt="">
+        </button>
+        <div>
+          <p>publishing overbiew</p>
+        </div>
+        <div class="inbox_counter">
+          <i class="fa-solid fa-arrows-rotate"></i>
+        </div>
+      </div>
+    </div>
+
+    <div class="main1">
+      <div class="main_dashboard">
+        <div><strong>Dashboard</strong></div>
+        <div class="main_dashboard_2nditem"><i class="fa-solid fa-calendar-week"></i>
+          <p>Last 30 days</p>
+          <i class="fa-solid fa-sort-down"></i>
+        </div>
+      </div>
+      <div class="main_meet">
+        <div class="main_mee1">
+          <img src="/assets/meet.png" alt="">
+          <div>
+            <h2>
+              MeetCsymple
+            </h2>
+            <span>com.csymplicity.MeetCsymple</span>
+            <ul>
+              <li><span>View on Google Play</span></li>
+            </ul>
+          </div>
+        </div>
+        <div class="main_meet2">
+          <p><strong>View releases overview</strong></p>
+        </div>
+      </div>
+      <div id="status">
+
+        <div class="main_mee1 main_meet1">
+          <div>
+            <h5>
+              Update status
+            </h5>
+            <span>In review</span>
+            <ul>
+              <li><span>Go to Publishing overview</span></li>
+            </ul>
+          </div>
+        </div>
+       
+        <div class="main_mee1">
+          <div>
+            <h5>
+              Update status
+            </h5>
+            <span>Active</span>
+            <ul>
+              <li><pre>0 active devices</pre></li>
+            </ul>
+            <ul>
+              <li><pre>176 counteries / regions</pre></li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+<div class="main_showStatus">
+  Show test tracks
+  <i class="fa-solid fa-angle-down"></i>
+</div>
+
+
+    </div>
+
+    <div class="sidebar1">
+      <div class="sidebar_hr">
+        <hr>
+      </div>
+      <div id="sidebar_release">
+        <p>Release</p>
+      </div>
+      <div class="sidebar_items">
+        <button>
+          <img src="/assets/release.png" alt="">
+        </button>
+        <div>
+          <p>Releases overview</p>
+        </div>
+      </div>
+      <div class="sidebar_items">
+        <button>
+          <img src="/assets/launch.png" alt="">
+        </button>
+        <div>
+          <p>Production</p>
+        </div>
+      </div>
+      <div style="position:relative;" id="sidebar_items_inbox" class="sidebar_items">
+        <button>
+          <img src="/assets/play.png" alt="">
+        </button>
+        <div>
+          <p>Testing</p>
+        </div>
+        <div class="inbox_counter">
+          <p>4</p>
+        </div>
+      </div>
+      <div class="sidebar_items">
+        <button>
+          <img src="/assets/reach.png" alt="">
+        </button>
+        <div>
+          <p>Reach and devices</p>
+        </div>
+      </div>
+
+    </div>
+    <div class="main2">
+      <div class="main_dashboardd">
+        <div><h3>Inbox</h3></div>
+        <div class="main_meet22">
+          <p><strong>View releases overview</strong></p>
+        </div>
+      </div>
+      <div class="main_cards">
+        <div >
+          <div >
+            <i class="fa-solid fa-circle-info"></i>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo error corporis nam non illum. Delectus, quidem, .</p>
+          </div>
+          <div>
+            <img src="/assets/meet.png" alt="">
+            <span>Aug 11</span>
+          </div>
+        </div>
+        <div>
+          <div >
+            <i class="fa-solid fa-circle-info"></i>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo error corporis nam non illum. Delectus, quidem, .</p>
+          </div>
+          <div class="main_cards_2ndDiv" >
+            <ul>
+              <li><span>Aug 3 </span></li>
+            </ul>
+            
+          </div>
+        </div>
+        <div>
+          <div >
+            <i class="fa-solid fa-circle-info"></i>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo error corporis nam non illum. Delectus, quidem, .</p>
+          </div>
+          <div class="main_cards_2ndDiv" >
+            <ul>
+              <li><span>Aug 3 </span></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
